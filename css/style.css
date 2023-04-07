@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_banner {
+    display: block;
+    background-color: rgb(169, 81, 9);
+    text-align: center;
+    height: 60px;
+}
+
+.grid.wide {
+    text-align: center;
+    line-height: 60px;
+    color: rgb(118, 153, 36);
+    border: 1px solid black ;
+}
+
+.nav{
+    border: 1px solid black;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: left;
+    background-color: white;
+    border: 1px solid;
+}
+
+.menu ul li {
+    color: rgb(207, 65, 14);
+    display: inline-table;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu ul li a {
+    color: rgb(185, 65, 21);
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: pink;
+}
+
+.content_img img {
+    width: 100%;
+}
+
